@@ -1,8 +1,7 @@
 print("Welcome to adventure game!")
 
-path = input("You are right next to a creepy forest, will you go in or stay out?(in/out): ").lower()
-
 def startGame():
+    path = input("You are right next to a creepy forest, will you go in or stay out?(in/out): ").lower()
     if path == "out":
         print("Congrats, you didn't even start the adventure but you live! :D")
     else:
